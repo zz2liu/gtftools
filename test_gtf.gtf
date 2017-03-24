@@ -1,0 +1,6 @@
+##description
+##date
+chr18	coding	exon	19761414	19761539	.	+	.	gene_id "ucscCodingXLOC_011257"; transcript_id "ucscCodingTCONS_00032665"; exon_number "3"; gene_name "GATA6"; oId "uc002ktu.1"; nearest_ref "uc002ktu.1"; class_code "="; tss_id "ucscCodingTSS16366"; p_id "P23329";
+chr18	coding	exon	19762718	19762805	.	+	.	transcript_id "ucscCodingTCONS_00032665"; exon_number "4"; oId "uc002ktu.1"; nearest_ref "uc002ktu.1"; class_code "="; tss_id "ucscCodingTSS16366"; p_id "P23329";
+chr18	coding	exon	19762901	19763004	.	+	.	gene_id "ucscCodingXLOC_011257"; transcript_id "ucscCodingTCONS_00032665"; exon_number "5"; oId "uc002ktu.1"; nearest_ref "uc002ktu.1"; class_code "="; tss_id "ucscCodingTSS16366"; p_id "P23329";
+chr18	coding	exon	19780619	19782227	.	+	.	transcript_id "ucscCodingTCONS_00032665"; exon_number "6"; gene_name "GATA6"; oId "uc002ktu.1"; nearest_ref "uc002ktu.1"; class_code "="; tss_id "ucscCodingTSS16366"; p_id "P23329"; new_attr 2;
