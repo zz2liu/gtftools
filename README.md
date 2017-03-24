@@ -16,6 +16,6 @@ The attribute names are extracted from the first 100 GTF lines. The place holder
 # Contributors
 * Zongzhi Liu - Associate Research Scientist, Dept. of Pathology, Yale University
 
-You are welcome to contact me by email: firstname.lastname@yale.edu
+You are welcome to contact me by email: {firstname}.{lastname}@yale.edu.
 
 Enjoy!
