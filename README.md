@@ -1,4 +1,4 @@
-# gtf2csv
+# gtf2csv / GTF converters / gtf_to_csv 
 Convert a GTF file to a comma seperated file (CSV) with the original order of fields and attributes.
 # Installation
 Extract source files to a directory.
