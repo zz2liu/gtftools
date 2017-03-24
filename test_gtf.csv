@@ -1,0 +1,5 @@
+CHROM,SOURCE,FEATURE,START,END,SCORE,STRAND,FRAME,gene_id,transcript_id,exon_number,gene_name,oId,nearest_ref,class_code,tss_id,p_id,new_attr
+chr18,coding,exon,19761414,19761539,.,+,.,ucscCodingXLOC_011257,ucscCodingTCONS_00032665,3,GATA6,uc002ktu.1,uc002ktu.1,=,ucscCodingTSS16366,P23329,.
+chr18,coding,exon,19762718,19762805,.,+,.,.,ucscCodingTCONS_00032665,4,.,uc002ktu.1,uc002ktu.1,=,ucscCodingTSS16366,P23329,.
+chr18,coding,exon,19762901,19763004,.,+,.,ucscCodingXLOC_011257,ucscCodingTCONS_00032665,5,.,uc002ktu.1,uc002ktu.1,=,ucscCodingTSS16366,P23329,.
+chr18,coding,exon,19780619,19782227,.,+,.,.,ucscCodingTCONS_00032665,6,GATA6,uc002ktu.1,uc002ktu.1,=,ucscCodingTSS16366,P23329,2

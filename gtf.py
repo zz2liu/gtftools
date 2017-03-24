@@ -4,7 +4,7 @@ TODO: replace parseLine, composeLine with gtf = FieldAttrFomatter()
 """
 from __future__ import division, print_function, absolute_import, unicode_literals
 from builtins import * #dict, zip, map, range, open, str, int, super,...
-import pdb, collections, functools
+import pdb, collections, functools, itertools
 
 
 #gtf fields
@@ -43,9 +43,9 @@ def parseFile(gtf_file, attr_names=None):
         else:
             yield raw
 
-def _getAttrNamesFromFile(gtf_file):
+def _getAttrNamesFromFile(gtf_file, limit=100):
     res = []
-    for rec in parseFile(gtf_file):
+    for rec in parseFile(itertools.islice(gtf_file,limit)):
         for k in rec[-1].keys():
             if k in res:
                 continue

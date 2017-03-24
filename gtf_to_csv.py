@@ -8,8 +8,8 @@ example: PROG a.gtf > a.csv
 """
 
 def main(gtf_name, outfile):
+    attrNames = gtf._getAttrNamesFromFile(open(gtf_name), 100)
     outCsv = csv.writer(sys.stdout)
-    attrNames = gtf._getAttrNamesFromFile(open(gtf_name))
     outCsv.writerow(list(gtf.fieldNames)+list(attrNames))
     for row in gtf.parseFile(open(gtf_name), attrNames):
         outCsv.writerow(row)

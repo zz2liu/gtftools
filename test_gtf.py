@@ -48,6 +48,16 @@ class Tests(unittest.TestCase):
             'gene_name', 'oId', 'nearest_ref', 'class_code', 'tss_id', 'p_id', 'new_attr'])
         #print(res)
 
+    def test__getAttrNamesFromFile_limit_4(self):
+        res = gtf._getAttrNamesFromFile(gtf_lines, 4)
+        self.assertEquals(res, ['gene_id', 'transcript_id', 'exon_number',
+            'gene_name', 'oId', 'nearest_ref', 'class_code', 'tss_id', 'p_id', 'new_attr'])
+
+    def test__getAttrNamesFromFile_limit_2(self):
+        res = gtf._getAttrNamesFromFile(gtf_lines, limit=2)
+        self.assertEquals(res, ['gene_id', 'transcript_id', 'exon_number',
+            'gene_name', 'oId', 'nearest_ref', 'class_code', 'tss_id', 'p_id'])
+
     def test_parseFile(self):
         res = list(gtf.parseFile(open(gtf_fname)))
         self.assertEquals(len(res[0]), 9)
